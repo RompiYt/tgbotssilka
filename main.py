@@ -27,7 +27,7 @@ def get_main_menu():
 def get_subscription_menu():
     builder = InlineKeyboardBuilder()
     builder.row(InlineKeyboardButton(text="Месяц - 100 звёзд", callback_data="sub_month_stars"))
-    builder.row(InlineKeyboardButton(text="Навсегда - 250 звёзд", callback_data="sub_forever_stars"))
+    builder.row(InlineKeyboardButton(text="Навсегда - 500 звёзд", callback_data="sub_forever_stars"))
     builder.row(InlineKeyboardButton(text="⬅️ Назад", callback_data="main_menu"))
     return builder.as_markup()
 
